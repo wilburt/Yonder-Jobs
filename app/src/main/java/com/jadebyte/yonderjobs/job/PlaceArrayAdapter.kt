@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package com.jadebyte.yonderjobs
+package com.jadebyte.yonderjobs.job
 
 import android.content.Context
 import android.widget.ArrayAdapter
@@ -24,6 +24,7 @@ import android.widget.Toast
 import com.google.android.gms.common.api.GoogleApiClient
 import com.google.android.gms.location.places.AutocompleteFilter
 import com.google.android.gms.location.places.Places
+import com.jadebyte.yonderjobs.R
 import timber.log.Timber
 import java.util.*
 import java.util.concurrent.TimeUnit

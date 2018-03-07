@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#149dcc</color>
+    <color name="colorPrimaryDark">#0d6786</color>
+    <color name="colorAccent">#ff3134</color>
+    <color name="introCardBg">#cd000000</color>
+    <color name="editTextBg">#82d6d6d6</color>
 </resources>

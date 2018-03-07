@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package com.jadebyte.yonderjobs
+package com.jadebyte.yonderjobs.common
 
 import android.content.Intent
 import android.net.Uri
@@ -24,6 +24,8 @@ import android.support.v7.app.AppCompatActivity
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
+import com.jadebyte.yonderjobs.job.Job
+import com.jadebyte.yonderjobs.R
 
 
 open class BaseActivity : AppCompatActivity() {

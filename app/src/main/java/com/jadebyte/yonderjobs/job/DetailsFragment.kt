@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package com.jadebyte.yonderjobs
+package com.jadebyte.yonderjobs.job
 
 import android.os.Bundle
 import android.text.format.DateUtils
@@ -27,6 +27,7 @@ import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
+import com.jadebyte.yonderjobs.R
 import com.jadebyte.yonderjobs.common.BaseFragment
 import kotlinx.android.synthetic.main.fragment_details.*
 

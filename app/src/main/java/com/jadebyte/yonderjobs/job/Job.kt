@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package com.jadebyte.yonderjobs
+package com.jadebyte.yonderjobs.job
 
 import android.os.Parcel
 import android.os.Parcelable

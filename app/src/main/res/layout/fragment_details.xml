@@ -14,16 +14,164 @@
   ~  limitations under the License.
   -->
 
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:tools="http://schemas.android.com/tools"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             tools:context="com.jadebyte.yonderjobs.DetailsFragment">
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jadebyte.yonderjobs.job.DetailsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment"/>
+        android:layout_height="wrap_content">
 
-</FrameLayout>
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/jobMapView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+            <fragment
+                android:id="@+id/mapJobFrag"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </com.google.android.gms.maps.MapView>
+
+        <TextView
+            android:id="@+id/timeStamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:background="#8b000000"
+            android:drawablePadding="@dimen/padding_small"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/padding_small"
+            android:paddingLeft="@dimen/padding_large"
+            android:paddingRight="@dimen/padding_large"
+            android:paddingTop="@dimen/padding_small"
+            android:textColor="@android:color/white"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:drawableLeft="@drawable/ic_access_time_white_24dp"
+            tools:text="One hour ago"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_medium"
+            app:layout_constraintTop_toBottomOf="@id/jobMapView">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:text="@string/company"
+                android:textAllCaps="true"/>
+
+            <TextView
+                android:id="@+id/company"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Apple"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_large"
+                android:text="@string/position"
+                android:textAllCaps="true"/>
+
+            <TextView
+                android:id="@+id/jobType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Android Developer"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_large"
+                android:text="@string/number_of_hirees"
+                android:textAllCaps="true"/>
+
+            <TextView
+                android:id="@+id/numToHire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_large"
+                android:text="@string/technologies"
+                android:textAllCaps="true"/>
+
+            <TextView
+                android:id="@+id/technologies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Android, Kotlin"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_x_large"
+                android:text="@string/experience_level"
+                android:textAllCaps="true"/>
+
+            <TextView
+                android:id="@+id/experienceLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="@string/intermediate"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_x_large"
+                android:text="@string/salary_option"
+                android:textAllCaps="true"/>
+
+            <TextView
+                android:id="@+id/salaryOption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Equity"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_x_large"
+                android:text="@string/working_arrangement"
+                android:textAllCaps="true"/>
+
+            <TextView
+                android:id="@+id/workingArrangement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Remote Fully"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_x_large"
+                android:text="@string/extra_info"
+                android:textAllCaps="true"/>
+
+            <TextView
+                android:id="@+id/extraInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/none"/>
+
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

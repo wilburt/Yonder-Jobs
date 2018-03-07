@@ -3,7 +3,7 @@
 buildscript {
     ext.kotlin_version = '1.2.21'
     ext.support_lib = '27.0.2'
-    ext.firebase_lib = '11.8.0'
+    ext.gms_lib = '11.8.0'
     ext.timber_lib = '4.6.0'
     ext.glide_lib = '4.6.1'
 
@@ -17,6 +17,7 @@ buildscript {
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
+        classpath 'com.google.gms:google-services:3.1.0'
     }
 }
 

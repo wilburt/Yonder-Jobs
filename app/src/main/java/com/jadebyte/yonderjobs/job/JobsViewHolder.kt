@@ -14,13 +14,14 @@
  *  limitations under the License.
  */
 
-package com.jadebyte.yonderjobs
+package com.jadebyte.yonderjobs.job
 
 import android.support.v7.widget.RecyclerView
 import android.text.format.DateUtils
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import com.jadebyte.yonderjobs.R
 import com.jadebyte.yonderjobs.common.App
 import com.jadebyte.yonderjobs.common.BaseFragment
 import kotlinx.android.synthetic.main.item_job.view.*

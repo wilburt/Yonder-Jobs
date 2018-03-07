@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package com.jadebyte.yonderjobs
+package com.jadebyte.yonderjobs.job
 
 
 import android.content.Context
@@ -35,6 +35,7 @@ import com.google.android.gms.location.places.PlaceBuffer
 import com.google.android.gms.location.places.Places
 import com.google.android.gms.maps.model.LatLng
 import com.google.firebase.database.FirebaseDatabase
+import com.jadebyte.yonderjobs.R
 import com.jadebyte.yonderjobs.common.App
 import com.jadebyte.yonderjobs.common.BaseFragment
 import kotlinx.android.synthetic.main.fragment_post_job.*

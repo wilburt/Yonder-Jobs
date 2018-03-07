@@ -14,13 +14,14 @@
  *  limitations under the License.
  */
 
-package com.jadebyte.yonderjobs
+package com.jadebyte.yonderjobs.job
 
 import android.content.Intent
 import android.os.Bundle
 import android.support.design.widget.BottomNavigationView
 import android.view.Menu
 import android.view.MenuItem
+import com.jadebyte.yonderjobs.R
 import com.jadebyte.yonderjobs.common.BaseActivity
 import com.jadebyte.yonderjobs.common.BaseFragment
 import kotlinx.android.synthetic.main.activity_main.*

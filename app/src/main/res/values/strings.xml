@@ -1,3 +1,91 @@
 <resources>
     <string name="app_name">Yonder Jobs</string>
+
+    <!--Fonts-->
+    <string name="customFont">fonts/Lato-Regular.ttf</string>
+    <string name="customFontBold">fonts/Lato-Bold.ttf</string>
+
+    <!--Intro-->
+    <string
+        name="intro1"><Data><![CDATA[ Welcome to <br/><br/> <b>Yonder Jobs</b>]]> </Data></string>
+    <string
+        name="intro2"><Data><![CDATA[ Are you a developer searching for jobs in abroad? <br/><br/> This is the app for you ]]> </Data></string>
+    <string
+        name="intro3"><Data><![CDATA[ Is your organisation hiring foreign developers? <b/></b/> You can get the best employees here]]> </Data></string>
+    <string name="done">Done</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="jobs">Jobs</string>
+    <string name="post_job">Post Job</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="mobile_developer">Mobile Developer</string>
+    <string name="backend_developer">Backend Developer</string>
+    <string name="frontend_developer">Frontend Developer</string>
+    <string name="designer">Designer</string>
+    <string name="sysadmin">System Admin</string>
+    <string name="junior">Junior</string>
+    <string name="intermediate">Intermediate</string>
+    <string name="senior">Senior</string>
+
+    <string name="who_do_you_want_to_hire">Who do you want to hire?</string>
+    <string name="select">Select</string>
+    <string name="how_many_do_you_want_to_hire">How many do you want to hire?</string>
+    <string name="technologies">Technologies</string>
+    <string name="e_g_python">e.g Python</string>
+    <string name="experience_level">Experience Level</string>
+    <string name="salary_option">Salary option ($)</string>
+    <string name="working_arrangement">Working Arrangement</string>
+    <string name="city">City</string>
+    <string name="extra_info">Extra Information</string>
+    <string name="one">1</string>
+    <string-array name="job_types">
+        <item>@string/select</item>
+        <item>@string/mobile_developer</item>
+        <item>@string/backend_developer</item>
+        <item>@string/frontend_developer</item>
+        <item>@string/sysadmin</item>
+        <item>@string/designer</item>
+    </string-array>
+    <string-array name="levels">
+        <item>@string/select</item>
+        <item>@string/junior</item>
+        <item>@string/intermediate</item>
+        <item>@string/senior</item>
+    </string-array>
+    <string-array name="salary_option">
+        <item>@string/select</item>
+        <item>Competitive</item>
+        <item>Competitive + bonus</item>
+        <item>Competitive + bonus + equity</item>
+        <item>Market dependent</item>
+        <item>20,000 – 40,000</item>
+        <item>40,000 – 60,000</item>
+        <item>60,000 – 80,000</item>
+        <item>80,000 – 120,000</item>
+        <item>120,000 – 140,000</item>
+        <item>140,000 – 160,000</item>
+        <item>160,000 – 180,000</item>
+    </string-array>
+    <string-array name="working_arrangement">
+        <item>Select</item>
+        <item>Contract</item>
+        <item>Full time</item>
+        <item>Remote fully</item>
+        <item>Remote friendly</item>
+        <item>Part time</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="error_getting_suggestion">Error getting suggestion</string>
+    <string name="error_getting_loc_details">Error getting location details</string>
+    <string name="company_s_name">Company\'s name</string>
+    <string name="please_enter_x">Please enter %1$s</string>
+    <string name="posted_by_x">Posted %1$s</string>
+    <string name="no_jobs">No company has posted a job yet.</string>
+    <string name="title_activity_details">Details</string>
+    <string name="position">Position</string>
+    <string name="number_of_hirees">Number of Hirees</string>
+    <string name="company">Company</string>
+    <string name="none">None</string>
+    <string name="company_s_email">Company\'s email</string>
+    <string name="apply">Apply</string>
+    <string name="application_for_x">Application for the post of an/a %1$s</string>
 </resources>

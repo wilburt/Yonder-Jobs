@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package com.jadebyte.yonderjobs
+package com.jadebyte.yonderjobs.job
 
 import android.content.Context
 import android.os.Bundle
@@ -26,9 +26,9 @@ import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
+import com.jadebyte.yonderjobs.R
 import com.jadebyte.yonderjobs.common.BaseFragment
 import kotlinx.android.synthetic.main.fragment_jobs.*
-import timber.log.Timber
 
 class JobsFragment : BaseFragment(), View.OnClickListener, JobItemCallbacks {
 
@@ -63,7 +63,7 @@ class JobsFragment : BaseFragment(), View.OnClickListener, JobItemCallbacks {
         val dbRef = FirebaseDatabase.getInstance().reference.child("Jobs")
         dbRef.addValueEventListener(object : ValueEventListener {
             override fun onCancelled(p0: DatabaseError?) {
-                Timber.e("onCancelled: %s", p0)
+
                 jobList.clear()
                 adapter?.updateJobs(null)
                 setViewsVisibility()

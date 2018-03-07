@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package com.jadebyte.yonderjobs
+package com.jadebyte.yonderjobs.common
 
 import android.graphics.PorterDuff
 import android.support.v4.app.Fragment
@@ -25,6 +25,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ProgressBar
 import android.widget.TextView
+import com.jadebyte.yonderjobs.R
 
 /**
  * Created by Wilberforce on 2/25/18 at 10:30 AM.

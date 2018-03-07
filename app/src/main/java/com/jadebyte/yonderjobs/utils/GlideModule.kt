@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package com.jadebyte.yonderjobs
+package com.jadebyte.yonderjobs.utils
 
 import com.bumptech.glide.module.AppGlideModule
 

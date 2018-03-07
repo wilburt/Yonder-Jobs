@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package com.jadebyte.yonderjobs
+package com.jadebyte.yonderjobs.common
 
 import android.app.Application
 import android.content.Context
@@ -24,6 +24,8 @@ import android.os.StrictMode
 import android.preference.PreferenceManager
 import android.support.v7.app.AppCompatDelegate
 import com.google.firebase.database.FirebaseDatabase
+import com.jadebyte.yonderjobs.BuildConfig
+import com.jadebyte.yonderjobs.R
 import com.squareup.leakcanary.LeakCanary
 import com.squareup.leakcanary.RefWatcher
 import timber.log.Timber

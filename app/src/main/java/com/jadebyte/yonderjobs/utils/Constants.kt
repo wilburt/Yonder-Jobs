@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package com.jadebyte.yonderjobs
+package com.jadebyte.yonderjobs.utils
 
 /**
  * Created by Wilberforce on 2/20/18 at 5:11 PM.
